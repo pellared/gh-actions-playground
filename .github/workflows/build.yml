@@ -26,4 +26,6 @@ jobs:
 
       - name: printenv
         shell: bash
-        run: printenv
+        run: |
+          printenv
+          go env
